@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="comgitdemo:war exploded">
+    <output-path>$PROJECT_DIR$/comgitdemo/target/com.gitdemo</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="comgitdemo" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/comgitdemo/target/com.gitdemo/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="comgitdemo/web/Web" />
+    </root>
+  </artifact>
+</component>
